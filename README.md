@@ -1,2 +1,1 @@
-# notes-android-testing-codelab
-Notes - Android Testing Codelab
+# Notes - Android Testing Codelab
