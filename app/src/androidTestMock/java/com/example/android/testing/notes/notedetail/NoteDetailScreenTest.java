@@ -101,13 +101,12 @@ public class NoteDetailScreenTest {
 
     @Test
     public void noteDetails_DisplayedInUi() throws Exception {
-        fail("Implement step 7");
-//        // Check that the note title, description and image are displayed
-//        onView(withId(R.id.note_detail_title)).check(matches(withText(NOTE_TITLE)));
-//        onView(withId(R.id.note_detail_description)).check(matches(withText(NOTE_DESCRIPTION)));
-//        onView(withId(R.id.note_detail_image)).check(matches(allOf(
-//                hasDrawable(),
-//                isDisplayed())));
+        // Check that the note title, description and image are displayed
+        onView(withId(R.id.note_detail_title)).check(matches(withText(NOTE_TITLE)));
+        onView(withId(R.id.note_detail_description)).check(matches(withText(NOTE_DESCRIPTION)));
+        onView(withId(R.id.note_detail_image)).check(matches(allOf(
+                hasDrawable(),
+                isDisplayed())));
     }
 
     /**
